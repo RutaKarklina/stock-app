@@ -1,0 +1,19 @@
+.predictionCard {
+  height: 400px;
+  flex-grow: 1;
+}
+
+.row {
+  display: flex;
+  margin-top: 20px;
+}
+
+.controlCardContainer {
+  width: 300px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.controlCard {
+  flex-grow: 1;
+}

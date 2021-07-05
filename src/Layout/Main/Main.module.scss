@@ -15,6 +15,7 @@
 .navigationContainer {
   width: 15%;
   display: flex;
+  flex-shrink: 0;
 }
 
 .mainContainer {
