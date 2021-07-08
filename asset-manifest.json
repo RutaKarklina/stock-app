@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://rutakarklina.github.io/stock-app/static/css/main.7aeb525b.chunk.css",
-    "main.js": "https://rutakarklina.github.io/stock-app/static/js/main.39fbfb1a.chunk.js",
-    "main.js.map": "https://rutakarklina.github.io/stock-app/static/js/main.39fbfb1a.chunk.js.map",
+    "main.js": "https://rutakarklina.github.io/stock-app/static/js/main.5b50d6db.chunk.js",
+    "main.js.map": "https://rutakarklina.github.io/stock-app/static/js/main.5b50d6db.chunk.js.map",
     "runtime-main.js": "https://rutakarklina.github.io/stock-app/static/js/runtime-main.31ddbfd4.js",
     "runtime-main.js.map": "https://rutakarklina.github.io/stock-app/static/js/runtime-main.31ddbfd4.js.map",
     "static/js/2.ed4ab1c2.chunk.js": "https://rutakarklina.github.io/stock-app/static/js/2.ed4ab1c2.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.31ddbfd4.js",
     "static/js/2.ed4ab1c2.chunk.js",
     "static/css/main.7aeb525b.chunk.css",
-    "static/js/main.39fbfb1a.chunk.js"
+    "static/js/main.5b50d6db.chunk.js"
   ]
 }
