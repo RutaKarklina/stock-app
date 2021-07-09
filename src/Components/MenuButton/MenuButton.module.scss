@@ -1,0 +1,21 @@
+.menuButton {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  cursor: pointer;
+}
+
+.iconContainer {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+.icon {
+  width: 100%;
+  fill: white;
+
+  path {
+    fill: white;
+  }
+}

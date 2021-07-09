@@ -1,15 +1,14 @@
 .appContainer {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   background-color: #F8F7F7;
-  flex-wrap: wrap;
 }
 
 .contentContainer {
   width: 100%;
   display: flex;
   flex-grow: 1;
+  flex-direction: column;
 }
 
 .navigationContainer {
@@ -23,4 +22,38 @@
   flex-grow: 1;
   padding: 20px;
   flex-direction: column;
+}
+
+.navigationContent {
+  color: white;
+  padding-left: 10px;
+}
+
+.navigationItem {
+  padding-top: 10px;
+}
+
+.headerIcon {
+  width: 20px;
+  height: 20px;
+  fill: #d3d3d3;
+}
+
+.headerContent {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: #3c3b57;
 }

@@ -1,21 +1,41 @@
 .slider {
   width: 100%;
+  display: inline-block;
 }
 
 .track {
-  height: 5px;
-  background-color: blue;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #3182bd;
 }
 
 .thumb {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #d3d3d3;
   top: -7px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   cursor: grab;
+  outline: none;
+}
+
+.constraintContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.valueContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+ 
 }

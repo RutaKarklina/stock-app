@@ -2,6 +2,7 @@
   "name": "stock-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rutakarklina.github.io/stock-app",
   "dependencies": {
     "@reach/router": "^1.3.4",
     "@testing-library/jest-dom": "^5.11.4",
@@ -9,8 +10,11 @@
     "@testing-library/user-event": "^12.1.10",
     "classnames": "^2.3.1",
     "csvtojson": "^2.0.10",
+    "dayjs": "^1.10.6",
+    "gh-pages": "^3.2.3",
     "node-sass": "4.14.1",
     "react": "^17.0.2",
+    "react-advanced-gauge-chart": "^0.2.7",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "react-slider": "^1.3.1",
@@ -18,6 +22,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -6,7 +6,7 @@ import { HOME, ANALYSIS } from './routes';
 
 function Router() {
   return (
-    <ReachRouter>
+    <ReachRouter basepath={process.env.PUBLIC_URL}>
       <Home path={HOME} />
       <Analysis path={`${ANALYSIS}/:id`} />
     </ReachRouter>

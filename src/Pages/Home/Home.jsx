@@ -3,7 +3,7 @@ import * as styles from './Home.module.scss';
 import Main from '../../Layout/Main/Main';
 import Card from '../../Components/Card/Card';
 import { ANALYSIS } from '../../Router/routes';
-import { Link } from '@reach/router';
+import Link from '../../Components/Link/Link';
 
 function Home() {
   return (

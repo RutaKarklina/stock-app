@@ -12,8 +12,51 @@
   width: 300px;
   padding-left: 20px;
   display: flex;
+  flex-direction: column;
 }
 
 .controlCard {
   flex-grow: 1;
 }
+
+.historicContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sliderContainer {
+  padding-top: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.mainTitle {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.mainText {
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.accuracyCard {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 350px;
+}
+
