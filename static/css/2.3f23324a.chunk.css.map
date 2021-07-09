@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://node_modules/react-advanced-gauge-chart/dist/GaugeChart/style.css"],"names":[],"mappings":"AAAA,cACE,kBAAmB,CACnB,+BACF","file":"2.3f23324a.chunk.css","sourcesContent":[".percent-text{\n  text-anchor: middle;\n  font-family: 'Roboto', sans-serif;\n}\n"]}
